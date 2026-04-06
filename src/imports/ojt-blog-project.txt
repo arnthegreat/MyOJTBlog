@@ -1,0 +1,100 @@
+Create a minimalist blog webpage for my On-the-Job Training (OJT) experience using:
+
+- ReactJS
+- Vite
+- TailwindCSS
+
+The design should be modern, minimalist, and clean, similar to a personal tech blog. Use plenty of white space, soft shadows, rounded corners, and a neutral color palette.
+
+Project Requirements:
+
+1. Tech Stack
+- React (with functional components)
+- Vite for project setup
+- TailwindCSS for styling
+- Use simple React state (no Redux needed)
+
+2. Pages / Components
+Create the following components:
+
+Navbar
+- Blog title: "My OJT Journey"
+- Navigation links: Home, Blog, About
+- Sticky top navigation
+- Dark mode toggle
+
+Hero Section
+- Title: "My OJT Experience"
+- Subtitle: "Lessons, Challenges, and Growth during my On-the-Job Training"
+- Short introduction paragraph about being an IT student documenting internship experiences
+
+Blog Section
+- Display blog posts in a responsive card grid
+- Each blog card contains:
+  - Blog Title
+  - Date
+  - Short preview text
+  - "Read More" button
+- Hover animation on cards
+
+Single Blog View
+- Clean reading layout
+- Large title
+- Date
+- Blog content
+- Back to blog button
+
+About Section
+- Small profile section
+- Text: "I am an IT student documenting my learning journey during my OJT."
+
+Footer
+- Minimal footer with copyright
+- Social icons (GitHub, LinkedIn)
+
+3. UI Design
+- Minimalist layout
+- Max width container centered
+- Responsive design
+- Smooth hover animations
+- Soft shadows
+- Rounded cards
+- Modern typography
+
+4. Extra Features
+- Dark mode toggle
+- Smooth transitions
+- Mobile responsive
+- Clean spacing
+
+5. Project Structure
+Use a clean folder structure like:
+
+src/
+ components/
+  Navbar.jsx
+  BlogCard.jsx
+  Footer.jsx
+ pages/
+  Home.jsx
+  Blog.jsx
+  Post.jsx
+  About.jsx
+ data/
+  posts.js
+ App.jsx
+ main.jsx
+
+6. Blog Data
+Create sample blog posts related to OJT experiences such as:
+- First Day of My OJT
+- Organizing Thesis Documents
+- Lessons I Learned During Internship
+- Challenges During My OJT
+
+7. Output
+Provide:
+- Complete project structure
+- All React component code
+- Tailwind configuration
+- Sample blog data
