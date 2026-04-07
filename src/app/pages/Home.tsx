@@ -1,6 +1,6 @@
 import { BlogCard } from "../components/BlogCard";
 import { posts } from "../data/posts";
-import { Sparkles, TrendingUp } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export function Home() {
