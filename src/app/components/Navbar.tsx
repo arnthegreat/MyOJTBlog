@@ -1,9 +1,15 @@
 import { Link } from "react-router";
 import { Moon, Sun, BookOpen } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 export function Navbar() {
-  const { theme, setTheme } = useTheme();
+  const { theme, resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <nav className="sticky top-0 z-50 bg-white/90 dark:bg-black/90 backdrop-blur-md border-b border-gray-200 dark:border-yellow-500/20 shadow-sm">
@@ -29,11 +35,11 @@ export function Navbar() {
             </Link>
             
             <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
               className="p-2.5 rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 dark:from-yellow-500/10 dark:to-yellow-600/10 hover:from-gray-200 hover:to-gray-300 dark:hover:from-yellow-500/20 dark:hover:to-yellow-600/20 transition-all shadow-sm hover:shadow-md border border-transparent dark:border-yellow-500/20"
               aria-label="Toggle theme"
             >
-              {theme === "dark" ? (
+              {mounted && resolvedTheme === "dark" ? (
                 <Sun className="h-5 w-5 text-yellow-500" />
               ) : (
                 <Moon className="h-5 w-5 text-gray-700" />
