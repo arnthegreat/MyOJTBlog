@@ -26,27 +26,36 @@ export const posts = [
     id: 3,
     title: "Week 3: ",
     date: "March 5, 2026",
-    preview: "",
-    content: "",
-    images: []
+    preview: "In our third week, we verified, corrected, organized, and digitized Capstone documents.",
+    content: "During our third week, after organizing and encoding all the Capstone 1 and 2 documents, we proceeded to the faculty room in the Capstone (hardbound) area. There, we verified each Capstone group we had encoded to ensure that their physical copies were present. We also reviewed and corrected any incorrect dates based on the documents submitted alongside the hardbound copies. \n\nIn addition, we rearranged and organized the previously unsorted and disordered hardbound materials in the office to improve their overall arrangement. As instructed by our mentor, Sir Ryan, we also scanned the important pages from each Capstone group’s hardbound documents. This task required us to spend the entire week in the faculty room.",
+    images: [
+      "/MyOJTBlog/src/assets/images/33.jpg", 
+      "/MyOJTBlog/src/assets/images/3.jpg"
+    ]
   },
 
   {
     id: 4,
     title: "Week 4: ",
     date: "March 12, 2026",
-    preview: "",
-    content: "",
-    images: []
+    preview: "We  by scanning and and double checking all the important and required details for each Capstone before printing it.",
+    content: "For our 4th week. After we spent the whole week organizing, documenting and double checking all the hardbounds for each and every capstone group in the faculty room. We spent the whole 4th week encoding again and double checking all the important documents needed from for each hardbound copies. We put it all together group by group, in our excel sheets and gdocs, put dates on it, put each and every chairman, panels, and advisers for each and every group. As it is needed by the Registrar so it can be processed and archived. And before we go home on our last day of the week (friday), me and Nicole prepared to DTR file to be printed for next week.\n\n We spent the whole week making sure that all the necessary documents were correct before printing it all up. This involved double-checking that all the required information was included and properly formatted. We had to make sure that all the important details were present and correctly organized.",
+    images: [
+      "/MyOJTBlog/src/assets/images/4.jpg", 
+      "/MyOJTBlog/src/assets/images/44.jpg"
+    ]
   },
 
   {
     id: 5,
     title: "Week 5: ",
     date: "March 19, 2026",
-    preview: "",
-    content: "",
-    images: []
+    preview: "In our fifth week, we finalized, printed, and carefully organized all Capstone documents for accurate submission to the Registrar",
+    content: "The 5th week is the week BU announced that all work and classes are going to be work from home every friday, so we only have to go to work 4x a week which is very convenient especially to my OJT partner Nicole, because she lives in Tiwi and she can now spend time with her family more.\n\n For our 5th week work/agenda after double checking and encoding all necessary documents to be submitted to the registrar's office, we printed it all out including the DTR. We also made sure that all the documents were complete and properly organized before submitting them to the Registrar. This process was crucial to ensure that all the Capstone records were accurate and up-to-date for future reference. We had to make sure that all the necessary documents were included and properly organized for submission. This involved double-checking that all the required information was present and correctly formatted before we submitted it to the Registrar for processing and archiving.",
+    images: [
+      "/MyOJTBlog/src/assets/images/5.jpg",
+      "/MyOJTBlog/src/assets/images/55.jpg"
+    ]
   },
 
   {
@@ -55,7 +64,10 @@ export const posts = [
     date: "March 26, 2026",
     preview: "",
     content: "",
-    images: []
+    images: [
+      "/MyOJTBlog/src/assets/images/66.jpg", 
+      "/MyOJTBlog/src/assets/images/6.jpg"
+    ]
   },
 
   {
@@ -64,7 +76,10 @@ export const posts = [
     date: "April 2, 2026",
     preview: "",
     content: "",
-    images: []
+    images: [
+      "/MyOJTBlog/src/assets/images/77.jpg", 
+      "/MyOJTBlog/src/assets/images/7.jpg"
+    ]
   },
 
   {
@@ -73,6 +88,9 @@ export const posts = [
     date: "April 9, 2026",
     preview: "",
     content: "",
-    images: []
+    images: [
+      "/MyOJTBlog/src/assets/images/88.jpg", 
+      "/MyOJTBlog/src/assets/images/8.jpg"
+    ]
   },
 ];
