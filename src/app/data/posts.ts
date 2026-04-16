@@ -62,8 +62,8 @@ export const posts = [
     id: 6,
     title: "Week 6: ",
     date: "March 26, 2026",
-    preview: "",
-    content: "",
+    preview: "Made all the signatories for the capstone papers sign the printed documents.", 
+    content: "6th week is kind of chill because after printing all the important documents for the capstone records, we just had to make all the professors, panel members, and capstone advisers sign the printed documents and all the needed signatures in the docuemtns. We had to make sure that all the necessary signatures were obtained and properly organized for submission to the Dean's office for it to be signed before submitting it to the Registrar's Offce. So all we did was just wait for all the professors to come to the office and sign the documents, but some professors needed to be visited to their respective departments or offices because some of them are not in the office we are working in.\n\n Overall, the 6th week was more relaxed compared to the previous weeks, but it was still important to ensure that all the necessary signatures were obtained and properly organized for submission to the Dean's office. We had to make sure that all the required signatures were present and correctly organized before we submitted the documents for processing and archiving.",
     images: [
       "/MyOJTBlog/src/assets/images/66.jpg", 
       "/MyOJTBlog/src/assets/images/6.jpg"
@@ -74,8 +74,8 @@ export const posts = [
     id: 7,
     title: "Week 7: ",
     date: "April 2, 2026",
-    preview: "",
-    content: "",
+    preview: "While waiting for the Dean to sign the documents, we were assigned to update and decorate the bulletin board.",
+    content: "For our 7th week, after we submitted all the necessary documents to the Dean's office for it to be signed, we just have to wait for the Dean to sign the documents before we can submit it to the Registrar's office.\n\n While we are waiting, our mentor assigned us to do some other tasks including the bulletin board, which is a board that is used to post important announcements and information for the students and faculty. We had to make sure that the bulletin board was updated with the latest information and announcements our mentor wanted. We first painted the bulleting board with white and orange color sybmolizing the colors of our University, then after that we decorated it with some cutouts and printed materials to make it more visually appealing and informative. With the help of my OJT partner Nicole, we were able to complete the bulletin board in a very timely manner.",
     images: [
       "/MyOJTBlog/src/assets/images/77.jpg", 
       "/MyOJTBlog/src/assets/images/7.jpg"

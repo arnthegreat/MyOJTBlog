@@ -24,10 +24,6 @@ export function Post() {
         </Link>
 
         <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-8 md:p-12 border border-gray-200 dark:border-yellow-500/30">
-          {/* Week badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-500 to-amber-600 dark:from-yellow-400 dark:to-yellow-600 rounded-full text-black dark:text-gray-900 text-sm font-semibold mb-6">
-            Week {post.id}
-          </div>
           
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-yellow-400 dark:to-yellow-600 bg-clip-text text-transparent mb-6">
             {post.title}
